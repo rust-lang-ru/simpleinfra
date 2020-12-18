@@ -1,4 +1,4 @@
-FROM funkill/gitlocalize-bugs-checker:0.1.5
+FROM rustlangru/gitlocalize-bugs-checker:0.1.6
 
 COPY "entrypoint.sh" /
 
