@@ -1,0 +1,12 @@
+name: "Gitlocalize bugs checker"
+description: 'Check gitlocalize bugs'
+inputs:
+  translation_dir:
+    description: 'Translation directory'
+    required: true
+  original_dir:
+    description: 'Original dir'
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
