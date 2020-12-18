@@ -1,0 +1,5 @@
+name: "Symbols counter"
+description: 'Count symbols in PR'
+runs:
+  using: docker
+  image: "docker://rustlangru/syms-counter:latest"
