@@ -1,4 +1,4 @@
-FROM rustlangru/gitlocalize-bugs-checker:0.1.8
+FROM rustlangru/gitlocalize-bugs-checker:0.1.9
 
 COPY "entrypoint.sh" /
 
